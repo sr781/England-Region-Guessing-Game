@@ -1,11 +1,14 @@
 # England-Region-Guessing-Game
-This goal of this game is to correctly guess all the regions of England. This project demonstrates effective use of the Pandas library, csv files and data manipulation
+This goal of this game is to correctly guess all the regions of England. This project demonstrates effective use of the Pandas library, csv files and data manipulation.
 
+How to install:
 
+(1) Download as zip
 
+(2) Unzip file
 
-
-
+(3) Open with an IDE
+#
 ![image](https://user-images.githubusercontent.com/96390217/184439735-074e59e9-7241-4b71-9099-08fe7c1409cb.png)
 
 Figure 1: The start of the game where the user is prompted to enter a guess
