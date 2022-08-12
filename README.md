@@ -23,7 +23,7 @@ Figure 3: End of the game when all of the regions are correctly guessed
 #
 ![image](https://user-images.githubusercontent.com/96390217/184441219-32ca0b71-e34f-410d-b6fe-6d93949649c4.png)
 
-Figure 4: The csv file with the region as well as the x and y coordinated (the coordinates are so the correct region in the map can be marked)
+Figure 4: The csv file with the regions and the coordinates so it can be correctly makred in the map 
 
 
 
