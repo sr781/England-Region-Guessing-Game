@@ -21,9 +21,13 @@ Figure 2: If a region is correctly guessed, it is marked on the map
 
 Figure 3: End of the game when all of the regions are correctly guessed
 #
+![image](https://user-images.githubusercontent.com/96390217/184508053-6309f349-851b-4fef-9df2-8e47810389a6.png)
+
+Figure 4: If nothing is entered into the prompt, the game ends and the missing regions are shown
+#
 ![image](https://user-images.githubusercontent.com/96390217/184441219-32ca0b71-e34f-410d-b6fe-6d93949649c4.png)
 
-Figure 4: The csv file with the regions and the coordinates so it can be correctly marked on the map 
+Figure 5: The csv file with the regions and the coordinates so it can be correctly marked on the map 
 
 
 
