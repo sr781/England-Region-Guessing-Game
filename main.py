@@ -14,6 +14,12 @@ correct_answer = []  # If a guess is correct, it is stored in this list so that 
 regions_guessed = 0
 while game_is_active:
     answer = screen.textinput(title=f"{regions_guessed}/9 Guessed Correctly", prompt="Guess a region of England: ")  # Prompts the user to enter a guess
+    if answer == "":
+        missing_regions = [miss_region for miss_region in region_data["region"] if miss_region not in correct_answer]  # If the user ends the game by entering nothing in the prompt, the missing regions are shown
+        game_is_active = False
+        print("Game ended, the missing regions are: ")
+        for a in missing_regions:
+            print(a)
     answer = string.capwords(answer, sep=None)  # This function capitalises the first letter of each word
     for region in region_data["region"]:  # From the data frame, this for loop goes through the "region" column
         if region == answer:  # If the guess is equal to a region from the csv file, this if statement is triggered
